@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Portfolio of Kotta Kalyan Kalki, Computer Science Engineering student.">
+    <title>Kalyan Kalki | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <noscript>
+        <style>
+            .reveal { opacity: 1; transform: none; }
+            .bar span { width: var(--level); }
+        </style>
+    </noscript>
+</head>
+
+<body>
+
+<div class="scroll-progress"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <a href="#home" class="logo">&lt; Kalyan Kalki /&gt;</a>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+        <button class="icon-btn" id="themeBtn" aria-label="Switch theme">&#9790;</button>
+        <button class="icon-btn menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    </div>
+
+</header>
+
+
+<!-- ================= HOME ================= -->
+
+<section id="home" class="hero reveal">
+
+    <div class="hero-text">
+
+        <p class="hello"><span class="dot"></span> Hello, I'm</p>
+
+        <h1>Kotta <span class="grad">Kalyan Kalki</span></h1>
+
+        <h2>Computer Science Engineering Student</h2>
+
+        <p class="description">
+            I am passionate about programming, problem solving,
+            web development and learning new technologies.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn primary">Explore My Projects &#8594;</a>
+            <a href="#contact" class="btn ghost">Let's Connect &#8594;</a>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com/kalyankalki26-cpu"
+               target="_blank" rel="noopener noreferrer">GitHub</a>
+            <!-- TODO: replace with your real LinkedIn profile URL -->
+            <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID/"
+               target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:kalyankalki26@gmail.com">Email</a>
+        </div>
+
+    </div>
+
+    <div class="hero-visual">
+
+        <div class="photo">
+            <div class="photo-inner">
+                <!-- Put your photo at images/profile.jpg -->
+                <img
+                    src="images/profile.jpg"
+                    alt="Kalyan Profile Photo"
+                    onerror="this.style.display='none'; this.parentElement.classList.add('no-photo');"
+                >
+            </div>
+        </div>
+
+        <span class="chip chip-1">&lt;/&gt; Web Development</span>
+        <span class="chip chip-2">&#9889; Problem Solver</span>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section about reveal">
+
+    <div class="section-head">
+        <p class="eyebrow">01 / About</p>
+        <h2>About <span class="grad">Me</span></h2>
+    </div>
+
+    <div class="bento">
+
+        <div class="card about-text">
+
+            <p>
+                I am a Computer Science Engineering student
+                with a strong interest in programming and software development.
+            </p>
+
+            <p>
+                I enjoy working with C, Python, Java, Data Structures,
+                and Web Development. I like solving problems and
+                building practical projects.
+            </p>
+
+            <p>
+                I am continuously improving my technical skills
+                and exploring new technologies to become a skilled
+                software developer.
+            </p>
+
+        </div>
+
+        <div class="card info-card">
+            <h3>&#127891; Education</h3>
+            <p>Computer Science Engineering</p>
+        </div>
+
+        <div class="card info-card">
+            <h3>&#128187; Interests</h3>
+            <p>Programming &amp; Web Development</p>
+        </div>
+
+        <div class="card info-card">
+            <h3>&#128640; Goal</h3>
+            <p>Software Developer</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+<!-- To change a skill: edit the % text AND the --level value together. -->
+
+<section id="skills" class="section skills reveal">
+
+    <div class="section-head">
+        <p class="eyebrow">02 / Skills</p>
+        <h2>My <span class="grad">Skills</span></h2>
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="card skill-card">
+            <div class="skill-top"><h3>C</h3><span>75%</span></div>
+            <div class="bar"><span style="--level: 75%"></span></div>
+            <p>Programming</p>
+        </div>
+
+        <div class="card skill-card">
+            <div class="skill-top"><h3>Python</h3><span>70%</span></div>
+            <div class="bar"><span style="--level: 70%"></span></div>
+            <p>Programming &amp; Logic</p>
+        </div>
+
+        <div class="card skill-card">
+            <div class="skill-top"><h3>Java</h3><span>70%</span></div>
+            <div class="bar"><span style="--level: 70%"></span></div>
+            <p>Object-Oriented Programming</p>
+        </div>
+
+        <div class="card skill-card">
+            <div class="skill-top"><h3>DSA</h3><span>50%</span></div>
+            <div class="bar"><span style="--level: 50%"></span></div>
+            <p>Problem Solving</p>
+        </div>
+
+        <div class="card skill-card">
+            <div class="skill-top"><h3>HTML</h3><span>65%</span></div>
+            <div class="bar"><span style="--level: 65%"></span></div>
+            <p>Web Structure</p>
+        </div>
+
+        <div class="card skill-card">
+            <div class="skill-top"><h3>CSS</h3><span>25%</span></div>
+            <div class="bar"><span style="--level: 25%"></span></div>
+            <p>Web Design</p>
+        </div>
+
+        <div class="card skill-card">
+            <div class="skill-top"><h3>JavaScript</h3><span>50%</span></div>
+            <div class="bar"><span style="--level: 50%"></span></div>
+            <p>Web Development</p>
+        </div>
+
+        <div class="card skill-card">
+            <div class="skill-top"><h3>Git &amp; GitHub</h3><span>65%</span></div>
+            <div class="bar"><span style="--level: 65%"></span></div>
+            <p>Version Control</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="section projects reveal">
+
+    <div class="section-head">
+        <p class="eyebrow">03 / Projects</p>
+        <h2>My <span class="grad">Projects</span></h2>
+        <p class="section-sub">
+            Some of the projects I have worked on while learning
+            and building my skills.
+        </p>
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+        <article class="card project-card">
+            <span class="project-number">01</span>
+            <span class="status">In Progress</span>
+            <h3>Student Record Management System</h3>
+            <p>
+                A C-based application to add, view and manage
+                student records using file handling.
+            </p>
+            <div class="tags">
+                <span>C</span>
+                <span>File Handling</span>
+                <span>Structures</span>
+            </div>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="card project-card">
+            <span class="project-number">02</span>
+            <span class="status">Idea / In Progress</span>
+            <h3>Smart Agriculture Assistant</h3>
+            <p>
+                A software solution for early detection and management
+                of crop diseases and pest infestations.
+            </p>
+            <div class="tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Python</span>
+            </div>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="card project-card">
+            <span class="project-number">03</span>
+            <span class="status">Learning</span>
+            <h3>Python Practice Projects</h3>
+            <p>
+                A collection of Python programs focused on
+                logic building, lists, functions and problem solving.
+            </p>
+            <div class="tags">
+                <span>Python</span>
+                <span>Logic</span>
+                <span>Problem Solving</span>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="section contact reveal">
+
+    <div class="contact-panel">
+
+        <div class="contact-heading">
+
+            <p class="eyebrow">04 / Contact</p>
+
+            <h2>Let's <span class="grad">Talk</span></h2>
+
+            <p class="contact-intro">
+                Have an idea or want to work together?
+                Drop me a message and let's connect.
+            </p>
+
+            <p class="contact-description">
+                Whether it's a project, collaboration, or just a
+                conversation about technology, feel free to reach out.
+            </p>
+
+            <p class="contact-response">I usually respond as soon as possible.</p>
+
+        </div>
+
+        <div class="contact-links">
+
+            <!-- EMAIL -->
+            <a href="mailto:kalyankalki26@gmail.com" class="contact-card">
+                <span class="contact-icon">&#9993;</span>
+                <span class="contact-content">
+                    <small>EMAIL</small>
+                    <strong>kalyankalki26@gmail.com</strong>
+                </span>
+                <span class="contact-arrow">&#8599;</span>
+            </a>
+
+            <!-- GITHUB -->
+            <a href="https://github.com/kalyankalki26-cpu"
+               target="_blank" rel="noopener noreferrer" class="contact-card">
+                <span class="contact-icon">GH</span>
+                <span class="contact-content">
+                    <small>GITHUB</small>
+                    <strong>View my work</strong>
+                </span>
+                <span class="contact-arrow">&#8599;</span>
+            </a>
+
+            <!-- LINKEDIN -->
+            <!-- TODO: replace with your real LinkedIn profile URL -->
+            <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID/"
+               target="_blank" rel="noopener noreferrer" class="contact-card">
+                <span class="contact-icon">in</span>
+                <span class="contact-content">
+                    <small>LINKEDIN</small>
+                    <strong>Connect professionally</strong>
+                </span>
+                <span class="contact-arrow">&#8599;</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+    <p>&copy; <span id="year">2026</span> Kalyan. All Rights Reserved.</p>
+    <p>Built with HTML, CSS &amp; JavaScript</p>
+</footer>
+
+<button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">&#8593;</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
